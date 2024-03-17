@@ -1,0 +1,2 @@
+# Twitte-Sentiment-Analysis
+ This repository contains code for sentiment analysis on Twitter data using machine learning techniques. It includes data preprocessing, model training, and evaluation scripts, along with a Jupyter notebook demonstrating the analysis pipeline. The project aims to classify tweets into positive, negative, or neutral sentiments, providing insights into public opinion trends on Twitter
