@@ -3,8 +3,9 @@
 
  ## Cloning the repo
 You can start by cloning this repo in your wordspace and then start playing with the function to make your project done.
-
+```
 git clone https://github.com/vai-20-dehi/Twitter-Sentinment-Analysis.git
+```
 
 ## Packages that need to be installed:
 
@@ -14,7 +15,7 @@ Jupyter notebook or any other software to
 This project helps us to classify the no of positive and negative sentiments from the tweets present in the dataset
 
 # Code for printing the negative and positive words
-
+```
 train_pos = train[ train['sentiment'] == 'Positive']
 train_pos = train_pos['text']
 train_neg = train[ train['sentiment'] == 'Negative']
@@ -43,10 +44,10 @@ wordcloud_draw(train_pos,'white')
 print("Negative words")
 wordcloud_draw(train_neg)
 
-
+```
 
 # Code to extract Features
-
+```
 def get_words_in_tweets(tweets):
     all = []
     for (words, sentiment) in tweets:
@@ -65,10 +66,10 @@ def extract_features(document):
     for word in w_features:
         features['contains(%s)' % word] = (word in document_words)
     return features
-
-
+```
 #Code for final output
 
+```
 neg_cnt = 0
 pos_cnt = 0
 for obj in test_neg: 
@@ -84,14 +85,14 @@ print('[Negative]: %s/%s '  % (len(test_neg),neg_cnt))
 print('[Positive]: %s/%s '  % (len(test_pos),pos_cnt)) 
 
 
-
+```
 
 # Output Images of the project
 ## Positive Words
-![Output image](https://github.com/vai-20-dehi/Twitter-Sentinment-Analysis/blob/main/Output%20SS/WhatsApp%20Image%202024-03-16%20at%2013.51.58_2082aa6e.jpg?raw=true)
+![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(810).png?raw=true)
 
 ## Negative Words
-![Output image](https://github.com/vai-20-dehi/Twitter-Sentinment-Analysis/blob/main/Output%20SS/WhatsApp%20Image%202024-03-16%20at%2013.51.58_bbd1c4cb.jpg?raw=true)
+![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(810).png?raw=true)
 
 ## Output
-![Output image](https://github.com/vai-20-dehi/Twitter-Sentinment-Analysis/blob/main/Output%20SS/WhatsApp%20Image%202024-03-16%20at%2013.51.57_71cd273c.jpg?raw=true)
+![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(812).png?raw=true)
