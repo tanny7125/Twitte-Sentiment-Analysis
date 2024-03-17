@@ -67,7 +67,7 @@ def extract_features(document):
         features['contains(%s)' % word] = (word in document_words)
     return features
 ```
-#Code for final output
+# Code for final output
 
 ```
 neg_cnt = 0
