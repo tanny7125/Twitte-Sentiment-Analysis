@@ -92,7 +92,7 @@ print('[Positive]: %s/%s '  % (len(test_pos),pos_cnt))
 ![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(810).png?raw=true)
 
 ## Negative Words
-![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(810).png?raw=true)
+![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(811).png?raw=true)
 
 ## Output
 ![Output image](https://github.com/tanny7125/Twitter-Sentiment-Analysis/blob/main/Output%20Images/Screenshot%20(812).png?raw=true)
